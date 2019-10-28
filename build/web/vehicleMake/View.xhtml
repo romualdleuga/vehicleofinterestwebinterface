@@ -18,17 +18,9 @@
                     <h:outputText value="#{bundle.ViewVehicleMakeLabel_make}"/>
                     <h:outputText value="#{vehicleMakeController.selected.make}" title="#{bundle.ViewVehicleMakeTitle_make}"/>
                 </h:panelGrid>
-                <br />
-                <h:commandLink action="#{vehicleMakeController.destroyAndView}" value="#{bundle.ViewVehicleMakeDestroyLink}"/>
-                <br />
-                <br />
-                <h:link outcome="Edit" value="#{bundle.ViewVehicleMakeEditLink}"/>
-                <br />
-                <h:commandLink action="#{vehicleMakeController.prepareCreate}" value="#{bundle.ViewVehicleMakeCreateLink}" />
-                <br />
+                
                 <h:commandLink action="#{vehicleMakeController.prepareList}" value="#{bundle.ViewVehicleMakeShowAllLink}"/>
-                <br />
-                <br />
+                
                 <h:link outcome="/index" value="#{bundle.ViewVehicleMakeIndexLink}"/>
 
             </h:form>

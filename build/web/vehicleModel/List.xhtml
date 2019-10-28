@@ -37,16 +37,9 @@
                                 <h:outputText value="&nbsp;"/>
                             </f:facet>
                             <h:commandLink action="#{vehicleModelController.prepareView}" value="#{bundle.ListVehicleModelViewLink}"/>
-                            <h:outputText value=" "/>
-                            <h:commandLink action="#{vehicleModelController.prepareEdit}" value="#{bundle.ListVehicleModelEditLink}"/>
-                            <h:outputText value=" "/>
-                            <h:commandLink action="#{vehicleModelController.destroy}" value="#{bundle.ListVehicleModelDestroyLink}"/>
                         </h:column>
                     </h:dataTable>
                 </h:panelGroup>
-                <br />
-                <h:commandLink action="#{vehicleModelController.prepareCreate}" value="#{bundle.ListVehicleModelCreateLink}"/>
-                <br />
                 <br />
                 <h:link outcome="/index" value="#{bundle.ListVehicleModelIndexLink}"/>
             </h:form>
