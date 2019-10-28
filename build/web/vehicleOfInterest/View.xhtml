@@ -33,16 +33,10 @@
                     <h:outputText value="#{vehicleOfInterestController.selected.model}" title="#{bundle.ViewVehicleOfInterestTitle_model}"/>
                 </h:panelGrid>
                 <br />
-                <h:commandLink action="#{vehicleOfInterestController.destroyAndView}" value="#{bundle.ViewVehicleOfInterestDestroyLink}"/>
-                <br />
-                <br />
-                <h:link outcome="Edit" value="#{bundle.ViewVehicleOfInterestEditLink}"/>
-                <br />
-                <h:commandLink action="#{vehicleOfInterestController.prepareCreate}" value="#{bundle.ViewVehicleOfInterestCreateLink}" />
-                <br />
+                
+                
                 <h:commandLink action="#{vehicleOfInterestController.prepareList}" value="#{bundle.ViewVehicleOfInterestShowAllLink}"/>
-                <br />
-                <br />
+                
                 <h:link outcome="/index" value="#{bundle.ViewVehicleOfInterestIndexLink}"/>
 
             </h:form>
