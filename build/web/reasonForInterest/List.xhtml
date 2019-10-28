@@ -37,16 +37,9 @@
                                 <h:outputText value="&nbsp;"/>
                             </f:facet>
                             <h:commandLink action="#{reasonForInterestController.prepareView}" value="#{bundle.ListReasonForInterestViewLink}"/>
-                            <h:outputText value=" "/>
-                            <h:commandLink action="#{reasonForInterestController.prepareEdit}" value="#{bundle.ListReasonForInterestEditLink}"/>
-                            <h:outputText value=" "/>
-                            <h:commandLink action="#{reasonForInterestController.destroy}" value="#{bundle.ListReasonForInterestDestroyLink}"/>
                         </h:column>
                     </h:dataTable>
                 </h:panelGroup>
-                <br />
-                <h:commandLink action="#{reasonForInterestController.prepareCreate}" value="#{bundle.ListReasonForInterestCreateLink}"/>
-                <br />
                 <br />
                 <h:link outcome="/index" value="#{bundle.ListReasonForInterestIndexLink}"/>
             </h:form>

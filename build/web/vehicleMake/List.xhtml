@@ -31,15 +31,9 @@
                                 <h:outputText value="&nbsp;"/>
                             </f:facet>
                             <h:commandLink action="#{vehicleMakeController.prepareView}" value="#{bundle.ListVehicleMakeViewLink}"/>
-                            <h:outputText value=" "/>
-                            <h:commandLink action="#{vehicleMakeController.prepareEdit}" value="#{bundle.ListVehicleMakeEditLink}"/>
-                            <h:outputText value=" "/>
-                            <h:commandLink action="#{vehicleMakeController.destroy}" value="#{bundle.ListVehicleMakeDestroyLink}"/>
                         </h:column>
                     </h:dataTable>
                 </h:panelGroup>
-                <br />
-                <h:commandLink action="#{vehicleMakeController.prepareCreate}" value="#{bundle.ListVehicleMakeCreateLink}"/>
                 <br />
                 <br />
                 <h:link outcome="/index" value="#{bundle.ListVehicleMakeIndexLink}"/>
