@@ -23,6 +23,9 @@ a {
     padding: 14px 16px;
     text-decoration: none;
 }
+a:hover {
+  background-color: #111;
+}
 
 table {
     empty-cells: show;
