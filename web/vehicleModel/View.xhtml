@@ -20,18 +20,9 @@
                     <h:outputText value="#{bundle.ViewVehicleModelLabel_make}"/>
                     <h:outputText value="#{vehicleModelController.selected.make}" title="#{bundle.ViewVehicleModelTitle_make}"/>
                 </h:panelGrid>
-                <br />
-                <h:commandLink action="#{vehicleModelController.destroyAndView}" value="#{bundle.ViewVehicleModelDestroyLink}"/>
-                <br />
-                <br />
-                <h:link outcome="Edit" value="#{bundle.ViewVehicleModelEditLink}"/>
-                <br />
-                <h:commandLink action="#{vehicleModelController.prepareCreate}" value="#{bundle.ViewVehicleModelCreateLink}" />
-                <br />
+                
                 <h:commandLink action="#{vehicleModelController.prepareList}" value="#{bundle.ViewVehicleModelShowAllLink}"/>
-                <br />
-                <br />
-                <h:link outcome="/index" value="#{bundle.ViewVehicleModelIndexLink}"/>
+               <h:link outcome="/index" value="#{bundle.ViewVehicleModelIndexLink}"/>
 
             </h:form>
         </ui:define>
