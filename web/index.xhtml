@@ -7,11 +7,18 @@
         <h:outputStylesheet name="css/jsfcrud.css"/>
     </h:head>
     <h:body>
-        Maryland Sate Police
-        <br />
-        Vehicle of Interest
-        <br />
-        <br />
+        <div class="row">
+            <div class="column">
+                <span> Maryland Sate Police </span>
+                <br />
+                <span> Vehicle of Interest</span>
+            </div>
+            <div class="column"></div>
+            <div class="column">
+            </div>
+        </div>
+        
+        
         <ul>
         <h:link outcome="/vehicleOfInterest/List" value="Home"/>
         
@@ -20,7 +27,7 @@
         <h:link outcome="/vehicleMake/List" value="Make"/>
         
         <h:link outcome="/vehicleModel/List" value="Model"/>
-        <h:link style="float:right" outcome="/vehicleModel/List" value="Help"/>
+        <h:link style="float:right" outcome="/vehicleModel/List" value=""/>
         </ul>
         
         
