@@ -20,17 +20,8 @@
                     <h:outputText value="#{bundle.ViewReasonForInterestLabel_description}"/>
                     <h:outputText value="#{reasonForInterestController.selected.description}" title="#{bundle.ViewReasonForInterestTitle_description}"/>
                 </h:panelGrid>
-                <br />
-                <h:commandLink action="#{reasonForInterestController.destroyAndView}" value="#{bundle.ViewReasonForInterestDestroyLink}"/>
-                <br />
-                <br />
-                <h:link outcome="Edit" value="#{bundle.ViewReasonForInterestEditLink}"/>
-                <br />
-                <h:commandLink action="#{reasonForInterestController.prepareCreate}" value="#{bundle.ViewReasonForInterestCreateLink}" />
-                <br />
                 <h:commandLink action="#{reasonForInterestController.prepareList}" value="#{bundle.ViewReasonForInterestShowAllLink}"/>
-                <br />
-                <br />
+                
                 <h:link outcome="/index" value="#{bundle.ViewReasonForInterestIndexLink}"/>
 
             </h:form>
